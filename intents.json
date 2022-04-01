@@ -1,0 +1,133 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "greetingMore",
+         "patterns": [ "How are you", "How are you", "Whats up"],
+         "responses": ["I am fine!, How about you?", "I am good, you?"],
+         "context_set": ""
+        },
+        {"tag": "greetingMore2",
+         "patterns": [ "I am good", "I am fine", "Good"],
+         "responses": ["Have you got a questions?"],
+         "context_set": ""
+        },
+        {"tag": "greetingMore3",
+         "patterns": [ "What sort of questions can I ask?", "Questions", "I have a question"],
+         "responses": ["You can ask me about the app, your mentorship, interviews, CV's"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "Bye", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "Adios"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is PrePair", "what is your age", "how old are you", "age?"],
+         "responses": ["PrePair doesn't give its age away!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me PrePair.", "I'm PrePair!", "I'm PrePair!"],
+         "context_set": ""
+        },
+        {"tag": "mentor1",
+         "patterns": ["What sort of questions should I ask my mentor?", "What do you recommend I should ask my mentor?"],
+         "responses": ["Ask your mentor about their skills, job, industry, role", "Ask your mentor about their job", "Ask your mentor about their industry", "Ask your mentor about their role"],
+         "context_set": ""
+        },
+        {"tag": "mentor2",
+         "patterns": ["This is my first meeting what will i expect?", "During my first meeting what questions will I be asked"],
+         "responses": ["Your mentor may ask you to tell them about you, and what you hope to gain from this mentorship", "Your mentor may ask you to talk about yourself and what you expect from this mentorship"],
+         "context_set": ""
+        },
+        {"tag": "mentor3",
+         "patterns": ["What is a mentorship?", "What is the purpose of a mentorship?" ,"What is a mentor?", "What is a mentee?", "Mentorship"],
+         "responses": ["A mentorship is a relationship between two people where the individual with more experience, knowledge, and connections is able to pass along what they have learned to a more junior individual within a certain field. The more senior individual is the mentor, and the more junior individual is the mentee.", "A mentor can help you advance within your field and connect you with opportunities that you might not have otherwise had access to. They do this by sharing their knowledge, helping you identify opportunities in your path, and potentially opening doors for you when the time comes. The more senior individual is the mentor, and the more junior individual is the mentee."],
+         "context_set": ""
+        },
+        {"tag": "app1",
+         "patterns": ["How do I find a mentor?", "Find Mentor" ,"Search for a mentor", "How do i get a mentor?"],
+         "responses": ["Firstly, ensure your profile is complete! To check if it is, just select your profile picture. If it is not, then press edit profile, to fill in your details. This will help us recommend mentors for you who have similar interests. Once completed go back to the home page and select Find Mentor. Here you will be able to see recommended mentors. Or choose an industry of choice, here you can search for a mentor by their skill or company. Select the mentor, here you can see their profile and you can select to request a mentorship or not"],
+         "context_set": ""
+        },
+        {"tag": "app2",
+         "patterns": ["I don't like my mentor?", "Can you swap mentors?", "Can I end the mentorship anytime?", "I need a new mentor", "I don't get on with my mentor", "I don't have anything in common with my mentor", "I am having issues with my mentor", "My mentor isn't who I thought they were", "I'd like to cancel my mentorship"],
+         "responses": ["Firstly, message your mentor and let them know what is going on, just so they are aware. Then you go to their profile and cancel the mentorship, anytime you like! You can go to find a new mentor if you wish to start a mentorship with someone else"],
+         "context_set": ""
+        },
+        {"tag": "app3",
+         "patterns": ["Can I have more then 1 mentor?", "Can I have multiple mentorship?", "Is their a limit on how many mentors you can have?", "Can I have multiple mentors?", "Is there a mentor limit?"],
+         "responses": ["Their is no limit on how many mentors you can have! However I would recommend not having anymore then three at one time, as it could become overwhelming and very time consuming"],
+         "context_set": ""
+        },
+        {"tag": "app4",
+         "patterns": ["Mentor hasn't responded to my request", "Mentor declined my request", "Why are mentors not responding my request"],
+         "responses": ["Unfortunately, a mentor may not respond or may decline your request, this is due to them having too many mentees already! I would recommend searching for a different mentor instead, or checking your recommendation list"],
+         "context_set": ""
+        },
+        {"tag": "app5",
+         "patterns": ["I am having trouble with sorting a meeting with my mentor", "Meeting issues", "Mentor won't respond to meeting", "My mentor isn't responding"],
+         "responses": ["This could be due to the mentor having multiple mentees, or they are not seeing the meeting invite. I would recommend either messaging them through the app or emailing them privately"],
+         "context_set": ""
+        },
+        {"tag": "app6",
+         "patterns": ["How do I create a meeting?", "Create a meeting", "Do I create the meetings?"],
+         "responses": ["Meetings are created through the mentee app only, this ensures the mentee has control of the mentorship. To create a meeting go to mentors and select the mentor you wish to create a meeting with. Select create meeting, choose a form of medium and time, then send the meeting invitation. This will create a meeting log in your meetings menu on the application, the mentor will also be able to see this meeting there"],
+         "context_set": ""
+        },
+        {"tag": "app7",
+         "patterns": ["How do I create a goal?", "Do I need to create a goal after a meeting?", "What is the purpose of the goals?", "What are goals", "Goals"],
+         "responses": ["Goals are given by your mentor after your meeting, it is usually related to the meeting and something you wish or think you need to work on. However goals do not need to be assigned after each meeting. You can keep track of your goals by select your mentor and clicking add goal! Mentors are able to see your goals and can see how your progressing"],
+         "context_set": ""
+        },
+        {"tag": "app8",
+         "patterns": ["How do I edit my goal?", "Can I edit my goals?", "I need to change my goal date?", "I made a typo in my goal", "I need to change my goal status", "Goal status", "Status","Goal progress", "Progress"],
+         "responses": ["You can edit your goal or change its status by selecting the goal in the goals menu"],
+         "context_set": ""
+        },
+        {"tag": "app9",
+         "patterns": ["What are reports?", "Why is their reports?", "Are the reports interactive?", "Can I touch the bars?"],
+         "responses": ["Reports are a great way to see the performance of the application. You can see the total number of mentors and mentees. You can see which industry is popular and select that industry to display the mentors working there, same goes with skills. You can see how many mentors there are in each country and also keep track of your meetings and goals"],
+         "context_set": ""
+        },
+        {"tag": "feelingNervous",
+         "patterns": ["i am nervous", "i am really scared"],
+         "responses": ["Try not to be, this is a learning experience", "Your mentor will understand, they are here to help and guide you"],
+         "context_set": ""
+        },
+        {"tag": "feelingExcited",
+         "patterns": ["I am really excited", "I can't wait"],
+         "responses": ["Brilliant! It is meant be an exciting experience, enjoy it!"],
+         "context_set": ""
+        },
+        {"tag": "resume1",
+         "patterns": ["Have you got an CV tips", "Have you got any resume tips", "What makes a good CV?", "What makes a good resume?"],
+         "responses": ["Make sure to include your name, contact details, link to LinkedIn/Github other sites where you share your work. Work experience, Education. Talk about your skills any projects you've worked on! Also include a professional photo of yourself at the start"],
+         "context_set": ""
+        },
+        {"tag": "resume2",
+         "patterns": ["What do employers look for in a CV?"],
+         "responses": ["They look at your past work experience, to see if you fit the this role. They also look at your skills and hobbies this also gives them a good indication, to see if you fit the role which is being offered"],
+         "context_set": ""
+        },
+        {"tag": "resumeResponse",
+         "patterns": ["Ok Thanks", "Thank you"],
+         "responses": ["Your welcome! Have you any more questions"],
+         "context_set": ""
+        },
+        {"tag": "interviewQuestions1",
+         "patterns": ["What are typical interview questions?", "What questions would I be asked in an interview?"],
+         "responses": ["Usually an interview starts of with explain or tell me a bit about yourself! This is your opportunity to shine! Ensure you have a response ready for this question. I would talk about past experiences which relate to the role, focus on your strengths and abilities, where you are currently studying or where you graduated. Other common questions would be tell us why you applied for this role?, What do you know about the company? & What could you bring to this role"],
+         "context_set": ""
+        },
+         {"tag": "interviewQuestions2",
+         "patterns": ["Have you any tips for interviews", "Interview tips"],
+         "responses": ["Practise, Practise, Practise! Never walk into an interview not prepared! Ensure you research the company and the role well. Dress appropriately and ensure hair is neat and wear very little makeup if you plan on wearing some"],
+         "context_set": ""
+        }
+   ]
+}
