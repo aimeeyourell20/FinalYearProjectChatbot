@@ -125,9 +125,9 @@
          "context_set": ""
         },
          {"tag": "interviewQuestions2",
-         "patterns": ["Have you any tips for interviews", "Interview tips"],
-         "responses": ["Practise, Practise, Practise! Never walk into an interview not prepared! Ensure you research the company and the role well. Dress appropriately and ensure hair is neat and wear very little makeup if you plan on wearing some"],
-         "context_set": ""
-        }
+           "patterns": ["Have you any tips for interviews", "Interview tips"],
+           "responses": ["Practise, Practise, Practise! Never walk into an interview not prepared! Ensure you research the company and the role well. Dress appropriately and ensure hair is neat and wear very little makeup if you plan on wearing some"],
+            "context_set": ""
+}
    ]
 }
